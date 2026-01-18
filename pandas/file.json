@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Khan",
+    "email": "ali.khan@example.com",
+    "age": 28,
+    "city": "Lahore",
+    "country": "Pakistan",
+    "signup_date": "2024-01-15",
+    "is_active": true,
+    "amount": 1500.50
+  },
+  {
+    "id": 2,
+    "name": "Sara Ahmed",
+    "email": "sara.ahmed@example.com",
+    "age": 34,
+    "city": "Karachi",
+    "country": "Pakistan",
+    "signup_date": "2023-11-02",
+    "is_active": true,
+    "amount": 2450.00
+  },
+  {
+    "id": 3,
+    "name": "Usman Raza",
+    "email": "usman.raza@example.com",
+    "age": 22,
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "signup_date": "2024-03-10",
+    "is_active": false,
+    "amount": 0.00
+  },
+  {
+    "id": 4,
+    "name": "Ayesha Malik",
+    "email": "ayesha.malik@example.com",
+    "age": 29,
+    "city": "Rawalpindi",
+    "country": "Pakistan",
+    "signup_date": "2024-02-05",
+    "is_active": true,
+    "amount": 980.75
+  },
+  {
+    "id": 5,
+    "name": "Hamza Siddiq",
+    "email": "hamza.siddiq@example.com",
+    "age": 41,
+    "city": "Faisalabad",
+    "country": "Pakistan",
+    "signup_date": "2023-08-19",
+    "is_active": true,
+    "amount": 3100.00
+  }
+]

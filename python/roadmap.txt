@@ -1,0 +1,229 @@
+1. Python Basics (Foundations)
+
+These are the essentials you must know before doing anything else.
+
+1.1 Introduction to Python
+
+History & Versions – From Python 1.0 to the current version.
+
+Features – Easy syntax, interpreted, dynamically typed, cross-platform.
+
+Installation – Installing Python & pip, environment setup.
+
+Python IDEs – IDLE, VS Code, PyCharm, Jupyter Notebook.
+
+1.2 Syntax & Structure
+
+Indentation – No braces {}, Python uses spaces/tabs.
+
+Comments – Single-line # and multi-line docstrings """...""".
+
+Running Code – Interactive mode (python shell) vs script (.py files).
+
+1.3 Variables & Data Types
+
+Declaring variables (no type needed, Python is dynamic).
+
+Data types:
+
+Numbers: int, float, complex
+
+Strings: str
+
+Boolean: bool
+
+None: NoneType
+
+1.4 Operators
+
+Arithmetic: +, -, *, /, //, %, **
+
+Comparison: ==, !=, <, >, <=, >=
+
+Logical: and, or, not
+
+Assignment: =, +=, -=, etc.
+
+Membership: in, not in
+
+Identity: is, is not
+
+2. Data Structures
+
+Python’s built-in containers for storing data.
+
+2.1 Lists
+
+Creation: my_list = [1, 2, 3]
+
+Indexing & slicing: my_list[0], my_list[1:3]
+
+Methods: append(), remove(), sort(), reverse()
+
+Nested lists & list comprehensions.
+
+2.2 Tuples
+
+Immutable sequences: (1, 2, 3)
+
+Indexing & slicing
+
+Packing & unpacking: a, b = (1, 2)
+
+2.3 Sets
+
+Unique unordered values: {1, 2, 3}
+
+Set operations: union, intersection, difference.
+
+Methods: add(), remove(), discard()
+
+2.4 Dictionaries
+
+Key-value pairs: {"name": "Nidal", "age": 23}
+
+Accessing: dict["name"]
+
+Methods: keys(), values(), items()
+
+3. Control Flow
+
+How to make decisions and repeat tasks.
+
+3.1 Conditional Statements
+if condition:
+    ...
+elif condition:
+    ...
+else:
+    ...
+
+3.2 Loops
+
+for loop with sequences
+
+while loop
+
+Loop control: break, continue, pass
+
+3.3 Iterators & Generators
+
+iter() and next()
+
+Creating generators with yield
+
+4. Functions & Modules
+
+Making reusable code.
+
+4.1 Functions
+
+Defining: def func():
+
+Arguments:
+
+Positional
+
+Keyword
+
+Default values
+
+Variable arguments (*args, **kwargs)
+
+Return values
+
+Docstrings
+
+4.2 Lambda Functions
+
+One-line anonymous functions: lambda x: x*2
+
+4.3 Modules & Packages
+
+Creating and importing: import math, from os import path
+
+Installing packages with pip
+
+5. Object-Oriented Programming (OOP)
+
+For structured, reusable, and scalable code.
+
+Classes & Objects
+
+__init__ Constructor
+
+Attributes & methods
+
+Inheritance (single, multiple, multilevel)
+
+Method overriding
+
+Polymorphism
+
+Encapsulation (private & protected variables)
+
+Magic methods (__str__, __len__, etc.)
+
+6. File Handling
+
+Opening files: open("file.txt", "r")
+
+Reading & writing text/binary files
+
+File modes: r, w, a, rb, wb
+
+Context managers (with open())
+
+7. Error Handling
+
+Exceptions: try, except, finally, else
+
+Raising exceptions: raise ValueError("Error")
+
+Custom exceptions.
+
+8. Python Advanced Topics
+
+When you’re comfortable with the basics.
+
+Decorators (@function)
+
+Itertools & functools
+
+Context managers
+
+*args vs **kwargs advanced usage
+
+Python’s __main__ and script execution flow
+
+Type hinting (def func(x: int) -> str:)
+
+dataclasses
+
+9. Libraries & Frameworks
+
+Python is powerful because of its ecosystem.
+
+Data Analysis – pandas, numpy
+
+Data Visualization – matplotlib, seaborn
+
+Web Development – Flask, Django, FastAPI
+
+Automation – selenium, pyautogui
+
+APIs – requests
+
+Machine Learning – scikit-learn, TensorFlow, PyTorch
+
+10. Special Topics
+
+Multithreading & multiprocessing
+
+Async programming (async, await)
+
+Virtual environments (venv)
+
+Working with JSON, CSV, XML
+
+Date & time handling (datetime module)
