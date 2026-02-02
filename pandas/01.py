@@ -144,19 +144,3 @@ age_count = ages.count()
 print("Count of ages:", age_count)
 
 
-
-
-# Filter in pandas
-data={
-    "Name": ["Ali", "Sara", "Ahmed", "Lina", "Omar"],
-    "Age": [25, 30, 22, 28, 35],
-    "City": ["Karachi", "Lahore", "Islamabad", "Karachi", "Lahore"]
-}
-df = pd.DataFrame(data)
-# Filter rows where Age > 25
-filtered_df = df[df["Age"] > 25]
-print(filtered_df)
-
-# age > 25 and city is Karachi
-filtered_df2 = df[(df["Age"] > 25) & (df["City"] == "Karachi")]
-print(filtered_df2)

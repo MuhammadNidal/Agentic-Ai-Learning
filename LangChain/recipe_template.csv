@@ -1,0 +1,11 @@
+id,name,email,age,city,country,signup_date,is_active,amount
+1,Ali Khan,ali.khan@example.com,28,Lahore,Pakistan,2024-01-15,True,1500.50
+2,Sara Ahmed,sara.ahmed@example.com,34,Karachi,Pakistan,2023-11-02,True,2450.00
+3,Usman Raza,usman.raza@example.com,22,Islamabad,Pakistan,2024-03-10,False,0.00
+4,Ayesha Malik,ayesha.malik@example.com,29,Rawalpindi,Pakistan,2024-02-05,True,980.75
+5,Hamza Siddiq,hamza.siddiq@example.com,41,Faisalabad,Pakistan,2023-08-19,True,3100.00
+6,Zain Ali,zain.ali@example.com,19,Multan,Pakistan,2024-04-01,False,200.00
+7,Maria Noor,maria.noor@example.com,26,Lahore,Pakistan,2024-01-30,True,1750.25
+8,Bilal Hussain,bilal.hussain@example.com,37,Karachi,Pakistan,2023-12-12,True,4200.00
+9,Hira Shah,hira.shah@example.com,31,Peshawar,Pakistan,2024-02-18,False,0.00
+10,Farhan Iqbal,farhan.iqbal@example.com,45,Quetta,Pakistan,2023-06-25,True,5200.80

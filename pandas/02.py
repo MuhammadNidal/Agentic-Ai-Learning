@@ -26,3 +26,6 @@ print("filtered_df4",filtered_df4)
 # Reset index after filtering
 filtered_df5 = df[df["Age"] > 25].reset_index(drop=True)
 print("filtered_df5",filtered_df5)
+
+
+# df.info()
